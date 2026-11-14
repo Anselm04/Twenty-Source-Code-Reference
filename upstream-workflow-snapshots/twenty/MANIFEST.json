@@ -1,0 +1,356 @@
+{
+  "source": "https://github.com/twentyhq/twenty.git",
+  "commit": "1dd1c249ad213de6883be5296deb3bbba8420a22",
+  "number_of_original_workflow_files": 58,
+  "original_ci_is_disabled": true,
+  "files": [
+    {
+      "upstream_path": ".github/workflows/app-prod-parity-e2e-dispatch.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/app-prod-parity-e2e-dispatch.yaml",
+      "git_blob": "c819ecd515fba069b28c6639e49acdfd15d8e91f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cd-deploy-main.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/cd-deploy-main.yaml",
+      "git_blob": "8f410940d6303cda13d4c07e5ea856c5f17f5c4b",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cd-deploy-tag.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/cd-deploy-tag.yaml",
+      "git_blob": "716df8c050f904c55709b4e7317932b46c5f57b9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cd-storybook-ui.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/cd-storybook-ui.yaml",
+      "git_blob": "ef055baf66d33a380f7267c2a91542fa71f3a6a7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/changed-files.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/changed-files.yaml",
+      "git_blob": "397953483ab3a594556707de78d97f17149193ba",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-agent-skills-drift.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-agent-skills-drift.yaml",
+      "git_blob": "56be056c62ed41e69529ccca51973fef7721e76f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-agent-skills.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-agent-skills.yaml",
+      "git_blob": "90a9f3ac779b1d43ce552e2922c3f209b5cd0e62",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-ai-catalog-sync.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-ai-catalog-sync.yaml",
+      "git_blob": "3ace720537d464f65dec90eb5624b7a202b49ddc",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-app-docs-drift.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-app-docs-drift.yaml",
+      "git_blob": "07a915229e373d80d90f3f427a1008e89d6eff28",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-blocked-contributors.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-blocked-contributors.yaml",
+      "git_blob": "ae27b743cf5e9d9d159b5f9feca585215b90fac3",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-breaking-changes.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-breaking-changes.yaml",
+      "git_blob": "b06a5694b5c680047aa7cba9f175cf3fff97f8d6",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-cache-warm.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-cache-warm.yaml",
+      "git_blob": "2422d2da91fc61c50abc615dceef2ff7de5ae5ed",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-cli.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-cli.yaml",
+      "git_blob": "473f8f889031f9d9d33491e642ca0429dae84937",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-client-sdk.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-client-sdk.yaml",
+      "git_blob": "c56876b7c3b5bb78bc666e400ea2afb5cdd7ca96",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-companion.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-companion.yaml",
+      "git_blob": "bfdc4ad955fddb7d6d7114bea10eedb4bbb942ea",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-cross-version-upgrade.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-cross-version-upgrade.yaml",
+      "git_blob": "7182d99f3de7cf12d616bd0c066a11fbc75d8a1e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-docs.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-docs.yaml",
+      "git_blob": "e995e541969962e4227565a4cd15f42bd29929d1",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-dpa-subprocessors-sync.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-dpa-subprocessors-sync.yaml",
+      "git_blob": "0eaae2c49b75d2bf0ca4767e2d153e372d278e55",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-e2e-main.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-e2e-main.yaml",
+      "git_blob": "924bb04da09aff3980041bd9dad618270186f827",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-emails.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-emails.yaml",
+      "git_blob": "62900972edc4767d7d76203bf30f752d245380c5",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-example-app-hello-world.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-example-app-hello-world.yaml",
+      "git_blob": "101271b00f9c3bcfa69f81fb726562fc764f9573",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-example-app-postcard.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-example-app-postcard.yaml",
+      "git_blob": "16067831277ccafc2229442d1af1fef432eaa650",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-front-component-renderer.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-front-component-renderer.yaml",
+      "git_blob": "8b5cdf0d6f140bb3aec4e1efd73215505aabdaef",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-front-storybook-test.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-front-storybook-test.yaml",
+      "git_blob": "823d632f957ac9af21fa65d850bec36bb2b7bbb9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-front.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-front.yaml",
+      "git_blob": "df915a28c069aa165238035dcb2bea3b03bb8a18",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-knip.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-knip.yaml",
+      "git_blob": "0f2daa45cc9e014e9f2721d537d8b828d4a0c195",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-merge-queue.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-merge-queue.yaml",
+      "git_blob": "025f983ee878f42ebbbb145091f7ec4d4803ddf0",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-release-create.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-release-create.yaml",
+      "git_blob": "19f2da073d3888f3371f1464ddfa357c9745de9f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-sdk.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-sdk.yaml",
+      "git_blob": "78bf7159a37a452c84051df025ee10793eaabae9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-sensitive-paths-approval.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-sensitive-paths-approval.yaml",
+      "git_blob": "8bef0769ac91936cb165bb436cfa7dc34f8a74bc",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-server-integration-test-timings.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-server-integration-test-timings.yaml",
+      "git_blob": "d81997a4ed75fb2429b0929d53ce8ed7df6056da",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-server-integration-test.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-server-integration-test.yaml",
+      "git_blob": "76a788bde548cab69412bc755ea9bb4f07f721ab",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-server.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-server.yaml",
+      "git_blob": "5d6c49105807ec4a96e34a63173107c598b45da0",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-shared.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-shared.yaml",
+      "git_blob": "1f8ef19e7b6818815de1d5e477bf6fa78ec3b596",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-test-docker-compose.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-test-docker-compose.yaml",
+      "git_blob": "e757563793553c7a6322c7833c5fc8d0d2c803c9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-twenty-apps.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-twenty-apps.yaml",
+      "git_blob": "2512a479963bf8283b30cc7219e0f5fb6c8d36f5",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-ui.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-ui.yaml",
+      "git_blob": "25d0ea66285041c12e3929f452dda15aec04eac5",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-utils-test.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-utils-test.yaml",
+      "git_blob": "e8b2611f641a178e616131e85de7a94c0bb6981f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-utils.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-utils.yaml",
+      "git_blob": "ac644fd80d89ad213ed9beddc619bf11409aa41b",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-website.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-website.yaml",
+      "git_blob": "46e699bf378f244e63603cca182714222c945930",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci-zapier.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/ci-zapier.yaml",
+      "git_blob": "3a39c393e2160dca6f24c8baf3ae61d43372fc0b",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/claude.yml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/claude.yml",
+      "git_blob": "a6caa5f01eb100fb6afae15872d4f2dd14ce688a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/discover-apps.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/discover-apps.yaml",
+      "git_blob": "70a7bffcd3793af85e6baa89f7ff1b0351825ad6",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/docs-i18n-pull.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/docs-i18n-pull.yaml",
+      "git_blob": "7b867d49a04c90c195495739b1a4900fee7e0ec7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/docs-i18n-push.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/docs-i18n-push.yaml",
+      "git_blob": "a5080977f0933c5a54a0ddba42a89cbe1ef717e8",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/external-contributor-pr-auto-draft.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/external-contributor-pr-auto-draft.yaml",
+      "git_blob": "708b746deda5b849f53bb22f98cdaa4fa667bf0d",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/i18n-pull.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/i18n-pull.yaml",
+      "git_blob": "4a83128e25d0e59d2b248e5583adcdac81392a10",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/i18n-push.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/i18n-push.yaml",
+      "git_blob": "a8deb87a8323221839f96e042fc4f6f9d2c399a8",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/open-pull-request.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/open-pull-request.yaml",
+      "git_blob": "f23d99c8216245c1ed145e5cc53e56d55f437e24",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/post-ci-comments.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/post-ci-comments.yaml",
+      "git_blob": "f8f401199baad652910fc19ca47516791e088b58",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/pr-review-dispatch.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/pr-review-dispatch.yaml",
+      "git_blob": "365344258260a4b03068e99c57a54361782679af",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/pr-review-relay.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/pr-review-relay.yaml",
+      "git_blob": "556c6a348da8bc0785ce0906ce0d31edc47c157c",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/preview-env-dispatch.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/preview-env-dispatch.yaml",
+      "git_blob": "7ec5114652ba457de262c4b09ce1238813ebcb7f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/publish-npm-packages.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/publish-npm-packages.yaml",
+      "git_blob": "4fe3b7dea0b47f12a9620731b609789d7cf87403",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/visual-regression-dispatch.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/visual-regression-dispatch.yaml",
+      "git_blob": "97a258453ac1a5f702e3a6c5d403d5231f2d43da",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/website-i18n-pull.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/website-i18n-pull.yaml",
+      "git_blob": "1659e9e9171b5b513f301b597128317e03aad96e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/website-i18n-push.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/website-i18n-push.yaml",
+      "git_blob": "82b7e416aee30bd426aaac213af9681e4f7e0bca",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/website-preview-dispatch.yaml",
+      "reference_path": "upstream-workflow-snapshots/twenty/.github/workflows/website-preview-dispatch.yaml",
+      "git_blob": "90e376d7753053824a4f63789b46682a8ea22147",
+      "original_mode": "100644"
+    }
+  ]
+}
