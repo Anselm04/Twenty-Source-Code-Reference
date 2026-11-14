@@ -1,6 +1,6 @@
 name: Import Twenty redistributable reference snapshot
 
-# One-time push trigger plus manual rerun. Standard runners are free for public repositories.
+# Explicit first-time source study import; exclude commercially restricted files.
 on:
   workflow_dispatch:
   push:
